@@ -18,6 +18,11 @@
             color: #333;
             line-height: 1.6;
         }
+        a{
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: #000;
+        }
 
         .wrapper {
             display: flex;
@@ -133,19 +138,24 @@
 
         <section class="features">
             <div class="feature">
-                <img src="https://via.placeholder.com/300" alt="Feature 1">
-                <h3>Feature 1</h3>
-                <p>Description of feature 1. This section explains what this feature is about.</p>
+                <a href="Add_Recipe.php">
+                <img src="https://static.vecteezy.com/system/resources/previews/015/159/008/original/recipe-template-design-food-culinary-book-page-icon-isolated-on-white-background-cooking-concept-vector.jpg" alt="Feature 1">
+                <h3>Add Recipe</h3>
+                </a>
             </div>
             <div class="feature">
-                <img src="https://via.placeholder.com/300" alt="Feature 2">
-                <h3>Feature 2</h3>
-                <p>Description of feature 2. This section explains what this feature is about.</p>
+                <a href="Add_Admin.php">
+
+                    <img src="https://t4.ftcdn.net/jpg/04/62/88/97/360_F_462889752_tSWP7qDYpUIL6QRlbyIC8v68jaXwVXyx.jpg" alt="Feature 2">
+                    <h3>Add Admin</h3>
+                </a>
+                
             </div>
             <div class="feature">
-                <img src="https://via.placeholder.com/300" alt="Feature 3">
-                <h3>Feature 3</h3>
-                <p>Description of feature 3. This section explains what this feature is about.</p>
+            <a href="UserView.php">
+                <img src="https://icon-library.com/images/friends-icon-png/friends-icon-png-6.jpg" alt="Feature 3">
+                <h3>View User</h3>
+                </a>
             </div>
         </section>
 
